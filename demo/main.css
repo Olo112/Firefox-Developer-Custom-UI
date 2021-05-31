@@ -14,5 +14,5 @@ font-family: 'Noto Sans JP', sans-serif;    /* edit font style */
 
 
 .personalize-button{
-
+    background-image: url('./demo-img/personalize-icon.png')
 }
