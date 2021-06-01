@@ -12,7 +12,7 @@
 
 
 body {
-    background: var(--newtab-background-color);     /* acceptable: hex, rgb, rgba, hsl and words */
+    background: rgb(0, 40, 45);     /* acceptable: hex, rgb, rgba, hsl and words */
     font-family: 'Noto Sans JP', sans-serif;        /* edit font style */
 }
 
