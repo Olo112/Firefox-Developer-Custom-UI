@@ -1,6 +1,6 @@
 @charset utf-8;
 
-*, .activity-stream{
+:root{      /* main variables */
     --newtab-background-color:rgb(0, 40, 45);
     --newtab-text-primary-color:rgba(251, 251, 254, 1);
     --lwt-sidebar-background-color:rgb(56, 56, 61);
@@ -12,7 +12,8 @@
 
 
 body {
-font-family: 'Noto Sans JP', sans-serif;    /* edit font style */
+    background: var(--newtab-background-color);     /* acceptable: hex, rgb, rgba, hsl and words */
+    font-family: 'Noto Sans JP', sans-serif;        /* edit font style */
 }
 
 
