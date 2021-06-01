@@ -43,3 +43,25 @@ body {
 }
 
 
+.top-site-outer{
+  transition: .5s;
+}
+
+
+.tile{
+  border-radius: 50% !important;
+}
+
+
+.icon-wrapper{
+  width: 48px;
+  height: 48px;
+  transition: .2s;
+  border-radius: 50% !important;
+}
+
+
+.icon-wrapper:hover{
+  width: 55px !important;
+  height: 55px !important;
+}
