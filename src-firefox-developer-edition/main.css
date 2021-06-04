@@ -48,6 +48,16 @@ select#row-selector.selector{
   width: 410px;
 }
 
+button.close-button{
+  transition: .4s;
+  border-radius: 0px !important;
+}
+
+div.logo-and-wordmark{
+  margin-top: -10px
+}
+
+
 
 
 /********* collapsible section styling ***********/
