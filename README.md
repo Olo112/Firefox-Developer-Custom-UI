@@ -1,6 +1,5 @@
 # Firefox-Essence-Dark-UI
-Custom UI template for Firefox developer browser, where you can find great tools for developers and programmers
-
+UI template for Firefox browser and Firefox Developer Edition. Meet new UX/UI with animations
 
 
 ### Note:
