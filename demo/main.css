@@ -42,7 +42,7 @@ body {
 
 /* collapsible section styling */
 .outer-wrapper.newtab-experience .search-wrapper .search-handoff-button,
-.outer-wrapper .newtab-experience { /* center searchbar */
+.outer-wrapper .newtab-experience { /* searchbar */
     border-radius: 0px;
 }
 
