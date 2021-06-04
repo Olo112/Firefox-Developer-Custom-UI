@@ -1,27 +1,11 @@
 @charset utf-8;
 
-.tile{
-    border-radius: 50%;
+.personalize-button:hover {
+	background-color: var(--newtab-background-button-hover-color);
 }
 
 
-.outer-wrapper .newtab-experience .ds-top-sites .top-sites .top-sites-list{
-    margin: 50px -12px;
-}
-
-.top-site-outer .tile .icon-wrapper {
-	border-radius: 50%;
-	width: 48px;
-	height: 48px;
-	overflow: hidden;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.top-site-outer .tile .icon-wrapper:hover{
-    width: 55px;
-    height: 55px
+.icon-wrapper:hover{
+  width: 55px !important;
+  height: 55px !important;
 }
