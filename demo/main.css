@@ -38,6 +38,10 @@ body {
 	background-color: var(--newtab-background-button-hover-color);
 }
 
+div.logo-and-wordmark{
+  margin-top: -10px
+}
+
 
 
 /* collapsible section styling */
