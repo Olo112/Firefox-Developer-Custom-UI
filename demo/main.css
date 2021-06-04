@@ -1,16 +1,6 @@
 @charset utf-8;
 @import "tabs.css";
 
-:root{      /* main variables */
-    --newtab-background-color:rgb(0, 40, 45);
-    --newtab-text-primary-color:rgba(251, 251, 254, 1);
-    --lwt-sidebar-background-color:rgb(56, 56, 61);
-    --lwt-sidebar-text-color:rgba(249, 249, 250, 1);
-    --newtab-background-button-hover-color: rgba(114, 114, 114, 0.5)
-    --newtab-search-icon: url(moz-extension://d970f544-e406-4b61-a005-5066d09004d7/favicon.ico);
-}
-
-
 
 body {
     background: rgb(0, 40, 45);     /* acceptable: hex, rgb, rgba, hsl and words */
