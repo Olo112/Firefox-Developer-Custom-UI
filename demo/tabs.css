@@ -10,6 +10,7 @@
     --newtab-search-icon: url(moz-extension://d970f544-e406-4b61-a005-5066d09004d7/favicon.ico);
 }
 
+
 .personalize-button:hover {
 	background-color: var(--newtab-background-button-hover-color);
 }
