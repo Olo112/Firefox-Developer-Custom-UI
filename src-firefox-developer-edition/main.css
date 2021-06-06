@@ -1,17 +1,24 @@
 @charset utf-8;
+@import "animations.css";
 
 :root{
-    --newtab-background-color:rgb(0, 40, 45);
-    --newtab-text-primary-color:rgba(251, 251, 254, 1);
-    --lwt-sidebar-background-color:rgb(56, 56, 61);
-    --lwt-sidebar-text-color:rgba(249, 249, 250, 1);
-    --newtab-background-button-hover-color: rgba(114, 114, 114, 0.5)
+    --original-newtab-background-color: rgb(40, 20, 0);
+    --developer-newtab-background-color: rgb(2, 35, 45);
+
+    --newtab-text-primary-color: rgba(251, 251, 254, 1);
+    --lwt-sidebar-background-color: rgb(56, 56, 61);
+    --lwt-sidebar-text-color: rgba(249, 249, 250, 1);
+
+    /* btn hover button */
+    --newtab-background-button-hover-color: rgba(114, 114, 114, 0.5);
+    --open-close-btn-font-weight: 400;
 }
 
 
 
+
 body {
-    background: rgb(0, 40, 45);
+    background: var(--developer-newtab-background-color);
     font-family: 'Noto Sans JP', sans-serif;
 }
 
