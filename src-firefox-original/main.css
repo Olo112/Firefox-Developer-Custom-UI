@@ -1,0 +1,112 @@
+@charset utf-8;
+/*@import "animations.css";*/
+
+:root{
+    --original-newtab-background-color: rgb(40, 20, 0);
+    --developer-newtab-background-color: rgb(2, 35, 45);
+
+    --newtab-text-primary-color: rgba(251, 251, 254, 1);
+    --lwt-sidebar-background-color: rgb(56, 56, 61);
+    --lwt-sidebar-text-color: rgba(249, 249, 250, 1);
+
+    /* btn hover button */
+    --newtab-background-button-hover-color: rgba(114, 114, 114, 0.5);
+    --open-close-btn-font-weight: 400;
+}
+
+
+
+
+body {
+    background: var(--developer-newtab-background-color);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div.logo-and-wordmark{
+  margin-top: -10px
+}
+
+
+
+/********* personalize button section edit ***********/
+.personalize-button{
+    transition: .4s;
+    border-radius: 0px;
+    padding: 0 12px;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.personalize-button:hover {
+	background-color: var(--newtab-background-button-hover-color);
+}
+
+select#row-selector{
+  border-radius: 0px;
+}
+
+
+select#row-selector.selector{
+  border-radius: 0px;
+}
+
+.customize-menu.customize-animate-enter-done, .customize-menu.customize-animate-enter-active{
+  width: 410px;
+}
+
+button.close-button{
+  transition: .4s;
+  border-radius: 0px !important;
+}
+
+div.logo-and-wordmark{
+  margin-top: -10px
+}
+
+
+
+
+/********* collapsible section styling ***********/
+.outer-wrapper.newtab-experience .search-wrapper .search-handoff-button,
+.outer-wrapper .newtab-experience {
+    border-radius: 0px;
+}
+
+
+.top-site-outer{
+  transition: .4s;
+}
+
+
+li.top-site-outer{
+  margin-top: 55px;
+}
+
+
+.tile{
+  border-radius: 50% !important;
+  width: 75px !important;
+  height: 75px !important;
+}
+
+
+.icon-wrapper{
+  width: 48px;
+  height: 48px;
+  transition: .2s;
+  border-radius: 50% !important;
+}
+
+
+.icon-wrapper:hover{
+  width: 55px !important;
+  height: 55px !important;
+}
+
+
+
+/********* history cards section ***********/
+.ds-highlights.sections-list {
+  margin-top: 35px;
+}
